@@ -9,4 +9,13 @@ require 'includes/header.php'; ?> <section class="section">
         <p>Proyek menampilkan profil, program studi, berita, serta formulir kontak. Data program studi dan berita dibaca dari database, sedangkan pesan pengguna disimpan menggunakan prepared statement.</p>
         <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.</div>
     </div>
-</section> <?php require 'includes/footer.php'; ?>
+</section>
+<section class="fokus-pembelajaran">
+    <h2>fokus pembelajaran</h2>
+    <ul>
+        <li>Pengembangan Aplikasi Web Modern</li>
+        <li>Manajemen Database dan Backend PHP</li>
+        <li>Penggunaan Version Control dengan Git</li>
+    </ul>
+</section> 
+<?php require 'includes/footer.php'; ?>
